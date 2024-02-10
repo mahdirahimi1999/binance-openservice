@@ -2,6 +2,12 @@
 
 This Python script showcases the generation of a Binance Open API signature for authentication purposes and subsequent retrieval of user data. It utilizes the `get_open_api_binance_token` function to acquire the necessary token, which is then utilized in the header of a request sent to a designated endpoint. Upon receiving the response, user data is extracted and decrypted using a private key.
 
+
+## Helpful Links:
+- [Binance Open Service API Documentation](https://developers.binance.com/docs/mini-program/openservice/open-service)
+- [Binance Open Data API Documentation](https://developers.binance.me/docs/mini-program/openservice/get-open-data)
+- [Binance Open Service Signature Documentation](https://developers.binance.com/docs/mini-program/openservice/signature)
+
 ## Functionality Overview:
 
 1. **Authentication Signature Generation:**
